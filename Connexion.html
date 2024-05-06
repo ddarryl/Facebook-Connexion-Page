@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Connexion ou Inscription</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="connexion.css" rel="stylesheet">
+</head>
+<body>
+<header>
+
+</header>
+
+<main>
+    <section class="accueil-connexion">
+        <div class="logo">
+            <img src="facebook.svg" alt="Logo Facebook">
+        </div>
+        <div class="description">
+            <p>Avec Facebook, partagez et restez en contact avec votre entourage.</p>
+        </div>
+    </section>
+
+    <section class="formulaire-connexion">
+        <form id="login-form" action="#" method="post">
+                <div id="error-message"></div>
+                <label for="email-or-phone">
+                    <input type="text" id="email-or-phone" name="email-or-phone" placeholder="Adresse e-mail ou numéro de tél." required>
+                </label>
+                <label for="password">
+                    <input type="password" id="password" name="password" placeholder="Mot de passe" required>
+                    <span id="eye-icon" class="eye-icon" onclick="togglePassword()">🔒</span>
+                </label>
+                <button type="submit"><strong>Se connecter</strong></button>
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Mot de passe oublié ?</a>
+                <div class="sep"></div>
+                <button type="button"><strong>Créer un nouveau compte</strong></button>
+        </form>
+        <p><a href="https://web.facebook.com/pages/create/?ref_type=registration_form"><strong>Créer une Page</strong></a> pour une célébrité, une marque ou une entreprise.</p>
+    </section>
+</main>
+
+    <footer>
+        <div class="list-lan">
+                <a id="french">Français (France)</a>
+                <a id="english">English (US)</a>
+                <a id="fula">Fula</a>
+                <a id="espanol">Español (España)</a>
+                <a id="deutsch">Deutsch</a>
+                <a id="bahasa">Bahasa Indonesia</a>
+                <a id=italiano>Italiano</a>
+                <a id="portuges">Português (Brasil)</a>
+                <a id="arabe">العربية</a>
+                <a id="indien">हिन्दी</a>
+                <a id="chinois">中文(简体)</a>
+        </div>
+        <div class="sep-f"></div>
+        <div class="list-res">
+            <a href="https://www.facebook.com/r.php">S’inscrire</a>
+            <a href="https://www.facebook.com/login/">Se connecter</a>
+            <a href="https://www.messenger.com/">Messenger</a>
+            <a href="https://www.facebook.com/lite/">Facebook Lite</a>
+            <a href="https://www.facebook.com/watch/">Vidéo</a>
+            <a href="https://www.facebook.com/places/">Lieux</a>
+            <a href="https://www.facebook.com/games/">Jeux</a>
+            <a href="https://www.facebook.com/marketplace/">Marketplace</a>
+            <a href="https://www.meta.com/pay">Meta Pay</a>
+            <a href="https://www.meta.com/store">Meta Store</a>
+            <a href="https://www.meta.com/quest">Meta Quest</a>
+            <a href="https://www.meta.com/ai">Meta AI</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.facebook.com/help/instagram/">Threads</a>
+        </div>
+        <div class="normes">
+            <a href="https://www.facebook.com/fundraisers/">Collectes de dons</a>
+            <a href="https://www.facebook.com/business/">Services</a>
+            <a href="https://www.facebook.com/help/elections/">Centre d’information sur les élections</a>
+            <a href="https://www.facebook.com/about/privacy/">Politique de confidentialité</a>
+            <a href="https://www.facebook.com/settings/?tab=privacy">Centre de confidentialité</a>
+            <a href="https://www.facebook.com/groups/">Groupes</a>
+            <a href="https://www.facebook.com/about/">À propos</a>
+            <a href="https://www.facebook.com/advertising/">Créer une publicité</a>
+        </div>
+        <div class="list-opt">
+            <a href="https://www.facebook.com/pages/create/?ref_type=site_footer">Créer une Page</a>
+            <a href="https://developers.facebook.com/">Développeurs</a>
+            <a href="https://www.facebook.com/careers/">Emplois</a>
+            <a href="https://www.facebook.com/policies/cookies/">Cookies</a>
+            <a href="https://www.facebook.com/business/ads/ad-targeting/">Choisir sa publicité</a>
+            <a href="https://www.facebook.com/legal/terms/update">Conditions générales</a>
+            <a href="https://www.facebook.com/help/">Aide</a>
+            <a href="https://www.facebook.com/mobile/facebook/invite-non-users/">Importation des contacts et non-utilisateurs</a>
+        </div>
+
+        <p>Meta © 2024</p>
+    </footer>
+
+<script src="connexion.js"></script>
+</body>
+</html>

@@ -1,0 +1,520 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.logo img {
+    width: 50%;
+    margin-bottom: -7.5%;
+}
+
+.description p {
+    font-size: 2em;
+    margin-left: 25px;
+}
+
+form {
+    margin-top: 50%;
+    background-color: #fff;
+    width: 100%;
+    padding: 15% 65px 10% 15%;
+    border-radius: 20px;
+    box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.1), 10px 10px 15px rgba(0, 0, 0, 0.1);
+    display: grid;
+}
+
+.formulaire-connexion {
+    margin-right: 30%;
+}
+
+.formulaire-connexion p {
+    text-align: center;
+    font-size: 90%;
+    margin-top: 10%;
+    width: 140%;
+}
+
+.formulaire-connexion p a{;
+    text-decoration: none;
+    color: black;
+}
+
+.formulaire-connexion p a:hover {
+    text-decoration: underline;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.accueil-connexion {
+    margin-left: 23%;
+    margin-right: 24px;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    height: 50px;
+    padding-left: 25px;
+    width: 115%;
+    margin-left: -8.5%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    position: relative;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 3px rgba(24, 119, 242, 0.3);
+}
+input:focus::placeholder {
+    color: #afafaf;
+}
+
+button {
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 25px;
+
+}
+
+button[type="submit"] {
+    font-size: 1.5em;
+    background-color: rgb(11, 87, 187);
+    color: white;
+    margin-bottom: 15px;
+    width: 125%;
+    padding-left: 12px;
+    margin-left: -7%;
+}
+
+button[type="submit"]:hover {
+    background-color: #1877f2;
+    cursor: pointer;
+    display: block;
+
+}
+
+button[type="button"] {
+    font-size: 1em;
+    background-color: rgb(0, 180, 0);
+    color: white;
+    margin-top: 20px;
+}
+
+button[type="button"]:hover {
+    background-color: #009600;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #1877f2;
+}
+
+.sep {
+    width: 125%;
+    margin-left: -7.5%;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+.sep-f {
+    width: 52%;
+    margin-left: 24.5%;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    margin-left: -1%;
+    margin-right: -0.4%;
+    margin-bottom: -10%;
+}
+
+.list-lan {
+    font-size: 0.8em;
+    color: #afafaf;
+    display: flex;
+    justify-content: center;
+    margin-left: -9%;
+}
+
+.list-lan a {
+    margin-left: 0.5%;
+    margin-top: 1.5%;
+    margin-bottom: 0.5%;
+}
+
+.list-res {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+}
+
+.list-res a {
+    margin-top: 0.5%;
+    margin-left: 0.95%;
+    color: #afafaf;
+}
+
+.normes {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    margin-left: -1%;
+
+}
+
+.normes a {
+    margin-top: -0.8%;
+    margin-left: 0.92%;
+    color: #afafaf;
+}
+
+.list-opt {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    margin-left: -5.8%;
+}
+
+.list-opt a {
+    margin-top: -0.8%;
+    margin-left: 0.93%;
+    color: #afafaf;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #afafaf;
+    display: flex;
+    justify-content: center;
+    margin-left: -47%;
+    margin-top: 0.2%;
+    padding-bottom: 3.7%;
+}
+/*#error-message {*/
+/*    color: red;*/
+/*    margin-bottom: 5%;*/
+/*}*/
+
+.eye-icon {
+    position: absolute;
+    right: 510px;
+    top: 28%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    opacity: 50%;
+}
+
+/* Styles pour les petits écrans */
+@media only screen and (max-width: 480px) {
+    /*#error-message {*/
+    /*    font-size: 0.7em;*/
+    /*}*/
+
+    .eye-icon {
+        position: absolute;
+        right: 50px;
+        top: 25%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        background-size: cover;
+        width: 10px;
+        height: 10px;
+        opacity: 50%;
+    }
+
+    main {
+        margin-bottom: 60%;
+    }
+    .logo img {
+        width: 180px;
+        height: 106px;
+        margin-left: 4%;
+    }
+
+    .description p {
+        margin-top: -5%;
+        font-size: 1em;
+        padding: 0 0 20px;
+        width: 180px;
+        height: 88px;
+    }
+
+    .accueil-connexion {
+        margin-top: 25%;
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 720px;
+        height: 260px;
+    }
+
+    form {
+        padding: 5% 0.5px 5% 15%;
+    }
+
+    .formulaire-connexion {
+        margin-right: 20%;
+        margin-top: 5%;
+    }
+
+    button {
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+
+    }
+
+    button[type="submit"] {
+        font-size: 0.7em;
+        width: 200px;
+        margin-left: -7%;
+    }
+
+    button[type="button"] {
+        font-size: 0.7em;
+        width: 135px;
+        margin-left: 8%;
+
+    }
+
+    a {
+        font-size: 0.5em;
+        text-align: center;
+        margin-left: -15%;
+        margin-bottom: 10px;
+        margin-top: 5px;
+
+    }
+
+    .sep {
+        width: 96%;
+        margin-left: -7%;
+        margin-bottom: -2%;
+        border-bottom: 1px solid #d1d0d0;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 195px;
+        height: 32px;
+        padding: 3px;
+        font-size: 0.6em;
+    }
+
+    .formulaire-connexion p {
+        margin-left: 13%;
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+    .formulaire-connexion p a{;
+        font-size: 0.9em;
+    }
+
+    .sep-f {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .list-res {
+       margin-left: 2%;
+    }
+
+    .normes {
+        margin-left: 2.3%;
+    }
+
+    .list-opt {
+        margin-left: -4%;
+    }
+
+    footer p {
+        margin-left: -75%;
+        margin-top: 1.5%;
+    }
+
+}
+
+/* Styles pour les tablettes */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    main {
+        margin-top: -1%;
+        margin-bottom: 5%;
+    }
+
+    .accueil-connexion {
+        margin-left: 25%;
+    }
+
+    .logo img {
+        width: 35%;
+    }
+
+    .description p {
+        font-size: 1.3em;
+        margin-top: 6%;
+        margin-left: 2.7%;
+    }
+
+    form {
+        padding: 10% 28px 8% 15%;
+    }
+
+    .formulaire-connexion {
+        margin-right: 23%;
+        width: 240px;
+        height: 280px;
+    }
+
+    button[type="submit"] {
+        font-size: 0.8em;
+        width: 118%;
+        height: 80%;
+        margin-left: -5%;
+    }
+
+    button[type="button"] {
+        font-size: 0.5em;
+        width: 95%;
+        height: 60%;
+        margin-left: 8%;
+    }
+
+    .sep {
+        width: 118%;
+        margin-left: -5%;
+        margin-bottom: -8%;
+        border-bottom: 1px solid #d1d0d0;
+    }
+
+    a {
+        font-size: 0.6em;
+        text-align: center;
+        margin-left: 6%;
+        margin-bottom: 4px;
+        margin-top: 5px;
+
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        font-size: 0.5em;
+        width: 110%;
+        height: 80%;
+        margin-left: -5%;
+        padding-left: 5%;
+    }
+
+    .formulaire-connexion p {
+        width: 150%;
+        font-size: 0.5em;
+        margin-left: -9%;
+    }
+
+    .formulaire-connexion p a{;
+        font-size: 0.9em;
+    }
+
+    .sep-f {
+        width: 56%;
+        margin-left: 22%;
+    }
+
+    .eye-icon {
+        position: absolute;
+        right: 228px;
+        top: 21.5%;
+        width: 1px;
+        height: 1px;
+    }
+
+    .sep-f {
+        width: 66.5%;
+        margin-left: 24.5%;
+        border-bottom: 1px solid #d1d0d0;
+    }
+
+    footer {
+        background-color: #ffffff;
+        padding: 20px 0;
+        margin-left: -1%;
+        margin-right: -0.4%;
+        margin-bottom: -10%;
+    }
+
+    .list-lan {
+        font-size: 1em;
+        margin-left: 6%;
+    }
+
+    .list-lan a {
+        margin-top: 0.5%;
+    }
+
+    .list-res {
+        font-size: 1em;
+        margin-left: 15%;
+    }
+
+    .list-res a {
+        margin-left: 0.95%;
+    }
+
+    .normes {
+        font-size: 1em;
+        margin-left: 16.7%;
+
+    }
+
+    .normes a {
+        margin-top: 0;
+        margin-left: 0.90%;
+    }
+
+    .list-opt {
+        font-size: 1em;
+        margin-left: 10%;
+    }
+
+    .list-opt a {
+        margin-top: 0;
+        margin-left: 0.93%;
+    }
+
+    footer p {
+        font-size: 1em;
+        margin-left: -41.8%;
+        margin-top: 1%;
+        padding-bottom: 0;
+    }
+}
